@@ -10,6 +10,6 @@ los transforma y valida con Python/pandas, los almacena en PostgreSQL y los expo
 \- Google Cloud Functions
 
 # \- Git
-\## Estado
+\ Estado
 🚧 En construcción
 
