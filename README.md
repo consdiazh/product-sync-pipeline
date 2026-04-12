@@ -9,7 +9,7 @@ los transforma y valida con Python/pandas, los almacena en PostgreSQL y los expo
 - FastAPI
 - Google Cloud Functions
 
-# - Git
+# Git
 Estado
 🚧 En construcción
 
