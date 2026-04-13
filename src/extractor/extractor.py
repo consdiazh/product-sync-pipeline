@@ -27,8 +27,13 @@ def extraer_productos(cantidad=20):
 
 
 if __name__ == "__main__":
+    import sys
+    sys.path.append(".")
+    from src.transformer.transformer import transformar_datos
+
     datos = extraer_productos()
 
     if datos:
-        df = pd.DataFrame(datos)
-        print(df.head(5))
+        df = transformar_datos(datos)
+        if df is not None:
+            print(df.head(5))
