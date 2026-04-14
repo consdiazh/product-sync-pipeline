@@ -46,7 +46,7 @@ Crear la base de datos en PostgreSQL:
 
 ```sql
 CREATE DATABASE pipeline_db;
-\c pipeline_db
+    pipeline_db
 CREATE TABLE posts (
     post_id    INTEGER PRIMARY KEY,
     usuario_id INTEGER NOT NULL,
