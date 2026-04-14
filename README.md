@@ -18,11 +18,13 @@ API pública → Extractor → Transformer → PostgreSQL → FastAPI
 - **uvicorn** — servidor ASGI
 
 ## Estructura del proyecto
+```bash
 src/
 ├── extractor/    # Extracción desde API pública
 ├── transformer/  # Limpieza y validación con pandas
 ├── loader/       # Carga en PostgreSQL
 └── api/          # API REST con FastAPI
+```
 ## Instalación
 
 ```bash
